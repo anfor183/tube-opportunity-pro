@@ -1,0 +1,15 @@
+{
+  "name": "youtube-keywords-software",
+  "version": "1.0.0",
+  "description": "Modern YouTube Evergreen Keyword & Virality Opportunity Intelligence Platform",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "dev:server": "node --watch server/src/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test": "npm --prefix server test"
+  },
+  "author": "Antigravity Senior Product & Engineering Architecture",
+  "license": "ISC"
+}
